@@ -59,7 +59,117 @@
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
   <script>
-    //put your script code here
+    const poop = document.querySelector(`audio[data-key="65"]`);
+    const poop1 = document.querySelector(`audio[data-key="83"]`);
+    const poop2 = document.querySelector(`audio[data-key="68"]`);
+    const poop3 = document.querySelector(`audio[data-key="70"]`);
+    const poop4 = document.querySelector(`audio[data-key="71"]`);
+    const poo5 = document.querySelector(`audio[data-key="72"]`);
+    const poop6 = document.querySelector(`audio[data-key="74"]`);
+    const poopp = document.querySelector(`audio[data-key="75"]`);
+    const poo7 = document.querySelector(`audio[data-key="76"]`);
+
+      const pee = document.querySelector(`div[data-key="65"]`);
+      const pee2 = document.querySelector(`div[data-key="83"]`);
+      const pee3 = document.querySelector(`div[data-key="68"]`);
+      const pee4 = document.querySelector(`div[data-key="70"]`);
+      const pee5 = document.querySelector(`div[data-key="71"]`);
+      const pee56 = document.querySelector(`div[data-key="72"]`);
+      const pee7 = document.querySelector(`div[data-key="74"]`);
+      const pee8 = document.querySelector(`div[data-key="75"]`);
+      const pee23 = document.querySelector(`div[data-key="76"]`);
+
+      window.addEventListener ('keydown', (event)=>{
+        if (event.keyCode === 65){
+          pee.classList.add('playing');
+          poop.currentTime = 0;
+          poop.play();
+        }
+      })
+      pee.addEventListener('transitionend', (event)=> {
+        pee.classList.remove('playing');
+      });
+      window.addEventListener ('keydown', (event)=>{
+        if (event.keyCode === 83){
+          pee2.classList.add('playing');
+          poop1.currentTime = 0;
+          poop1.play();
+        }
+      }) 
+      pee2.addEventListener('transitionend', (event)=> {
+        pee2.classList.remove('playing');
+      });
+      window.addEventListener ('keydown', (event)=>{
+        if (event.keyCode === 68){
+          pee3.classList.add('playing');
+          poop2.currentTime = 0;
+          poop2.play();
+        }
+      })
+      pee3.addEventListener('transitionend', (event)=> {
+        pee3.classList.remove('playing');
+      });
+      window.addEventListener ('keydown', (event)=>{
+        if (event.keyCode === 70){
+          pee4.classList.add('playing');
+          poop3.currentTime = 0;
+          poop3.play();
+        }
+      }) 
+      pee4.addEventListener('transitionend', (event)=> {
+        pee4.classList.remove('playing');
+      });
+      window.addEventListener ('keydown', (event)=>{
+        if (event.keyCode === 71){
+          pee5.classList.add('playing');
+          poop4.currentTime = 0;
+          poop4.play();
+        }
+      })
+      pee5.addEventListener('transitionend', (event)=> {
+        pee5.classList.remove('playing');
+      });
+      window.addEventListener ('keydown', (event)=>{
+        if (event.keyCode === 72){
+          pee56.classList.add('playing');
+          poo5.currentTime = 0;
+          poo5.play();
+        }
+      })
+      pee56.addEventListener('transitionend', (event)=> {
+        pee56.classList.remove('playing');
+      });
+      window.addEventListener ('keydown', (event)=>{
+        if (event.keyCode === 74){
+          pee7.classList.add('playing');
+          poop6.currentTime = 0;
+          poop6.play();
+        }
+      })
+      pee7.addEventListener('transitionend', (event)=> {
+        pee7.classList.remove('playing');
+      });
+      window.addEventListener ('keydown', (event)=>{
+        if (event.keyCode === 75){
+          pee8.classList.add('playing');
+          poopp.currentTime = 0;
+          poopp.play();
+        }
+      })
+      pee8.addEventListener('transitionend', (event)=> {
+        pee8.classList.remove('playing');
+      });
+      window.addEventListener ('keydown', (event)=>{
+        if (event.keyCode === 76){
+          pee23.classList.add('playing');
+          poo7.currentTime = 0;
+          poo7.play();
+        }
+      })
+      pee23.addEventListener('transitionend', (event)=> {
+        pee23.classList.remove('playing');
+      }); 
+      
   </script>
 </body>
 </html>
